@@ -6,7 +6,6 @@ Objectives
 
 Instructions
 
-    Create a repository in Github your-first-name-trap (e.g. Brucetrap, Berttrap, ...)
     Write your own mini CSS framework:
         Make sure these elements are in your framework:
             Button types
@@ -14,9 +13,13 @@ Instructions
             Grid layout
             
     Choose 5 more elements to add to your own framework
+
     Write about these 5 and how they work in your readme
+
     Create a HTML page explaining & showing off your designed elements
+
     Make a nav bar that contains all the elements you havein your framework, that scrolls down to the element when clicked
+    
     Make sure you can see in the nav bar at what element you are (on the page)
     Publish your result
 
