@@ -38,6 +38,28 @@
           </ul>
            </div>
 
+           <h2>Fieldset</h2>
+
+           <form>
+            <fieldset>
+              <legend>Fruit juice size</legend>
+              <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1">Small</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2">Medium</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3">Large</label>
+              </p>
+            </fieldset>
+          </form>
+
+          <h2>form layout</h2>
+
            <div class="row">
             <div class="grid-center">
               <input type="text" name="username" placeholder="Enter Username" />
@@ -49,8 +71,93 @@
               </select>
               <input type="submit" name="submit" class="btn-shadow bg-white fnt-black" junior/>
             </div>
-    </div>
+          </div>
 
+          <h2>Label</h2>
+
+          <label for="name">
+            Name: <input type="text" id="name" name="user_name">
+          </label>
+
+          <h2>payment form</h2>
+          <form>
+            <h1>Payment form</h1>
+            <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+            <section>
+                <h2>Contact information</h2>
+                <fieldset>
+                  <legend>Title</legend>
+                  <ul>
+                      <li>
+                        <label for="title_1">
+                          <input type="radio" id="title_1" name="title" value="M." >
+                          De heer
+                        </label>
+                      </li>
+                      <li>
+                        <label for="title_2">
+                          <input type="radio" id="title_2" name="title" value="Ms.">
+                          Mevrouw
+                        </label>
+                      </li>
+                  </ul>
+                </fieldset>
+                <p>
+                  <label for="name">
+                    <span>Naam: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                  </label>
+                  <input type="text" id="name" name="username">
+                </p>
+                <p>
+                  <label for="mail">
+                    <span>E-mail: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                  </label>
+                  <input type="email" id="mail" name="usermail">
+                </p>
+                <p>
+                  <label for="password">
+                    <span>wachtwoord: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                  </label>
+                  <input type="password" id="pwd" name="password">
+                </p>
+            </section>
+            <section>
+
+              
+                <h2>Payment information</h2>
+                <p>
+                  <label for="card">
+                    <span>Betalingswijze:</span>
+                  </label>
+                  <select id="card" name="usercard">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="Mo">Maestro</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="number">
+                    <span>Card number:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                  </label>
+                    <input type="number" id="number" name="cardnumber">
+                </p>
+                <p>
+                  <label for="date">
+                    <span>verloopt op:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                    <em>Noteer als maand/dag/jaar</em>
+                  </label>
+                  <input type="date" id="date" name="expiration">
+                </p>
+            </section>
+            <section>
+                <p> <button type="submit">Valideer de betaling</button> </p>
+            </section>
+        </form>
 
 
 
